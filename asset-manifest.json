@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cartwes/static/css/main.2f18924c.css",
+    "main.js": "/cartwes/static/js/main.1b1d0ff3.js",
+    "static/js/787.9ea196f4.chunk.js": "/cartwes/static/js/787.9ea196f4.chunk.js",
+    "static/media/hero2.png": "/cartwes/static/media/hero2.50abd88146e0ade1befb.png",
+    "static/media/react.png": "/cartwes/static/media/react.3f281ff9d09b0a87bad3.png",
+    "static/media/postgresql.png": "/cartwes/static/media/postgresql.d12205b1238958d7ef8c.png",
+    "static/media/kubernetes.png": "/cartwes/static/media/kubernetes.122eab8749d529509155.png",
+    "static/media/angularjs.png": "/cartwes/static/media/angularjs.d3b351f8f4b5c5da65a7.png",
+    "static/media/mongodb.png": "/cartwes/static/media/mongodb.a8889d623357ad8ce30e.png",
+    "static/media/mysql.png": "/cartwes/static/media/mysql.9b2e69d9f282d06c66fe.png",
+    "static/media/vue.png": "/cartwes/static/media/vue.c83d24f82647b1fcb11d.png",
+    "static/media/css.png": "/cartwes/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/cart.svg": "/cartwes/static/media/cart.da34efe8bdc7a4bd2a3512589960dbf9.svg",
+    "static/media/cartwes.svg": "/cartwes/static/media/cartwes.90fbc28b86abe33d94b5f0363bc9074b.svg",
+    "index.html": "/cartwes/index.html",
+    "static/media/logo.svg": "/cartwes/static/media/logo.b2e5a01e505f739f1484.svg",
+    "main.2f18924c.css.map": "/cartwes/static/css/main.2f18924c.css.map",
+    "main.1b1d0ff3.js.map": "/cartwes/static/js/main.1b1d0ff3.js.map",
+    "787.9ea196f4.chunk.js.map": "/cartwes/static/js/787.9ea196f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f18924c.css",
+    "static/js/main.1b1d0ff3.js"
+  ]
+}
