@@ -1,0 +1,12 @@
+.header {
+  @apply w-full fixed top-0 left-0 z-10 bg-green-200 shadow-md;
+}
+.header_container {
+  max-width: 1200px;
+  @apply z-10 h-12 mx-auto relative flex justify-between;
+}
+.header_total {
+  padding: 0.1rem;
+  top: 0.1rem;
+  @apply absolute font-bold text-xs right-1 rounded-md bg-red-300 opacity-80;
+}

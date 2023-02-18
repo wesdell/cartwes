@@ -1,56 +1,96 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import { useSelector } from "react-redux";
+import { Route, Routes } from "react-router";
+import Cart from "./components/Cart/Cart";
+import Course from "./components/Course/Course";
+import Hero from "./components/Hero/Hero";
+import Layout from "./components/Layout/Layout";
+import Link from "./components/Link/Link";
+import NotFound from "./components/NotFound/NotFound";
+import ProductItem from "./components/ProductItem/ProductItem";
+import Products from "./components/Products/Products";
+import "./App.css";
 
 function App() {
+  const state = useSelector((state) => state);
+  let { products } = state.cart;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route
+            index
+            element={
+              <>
+                <Hero />
+                <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+                  <Products>
+                    {products.length > 0 ? (
+                      products
+                        .slice(0, 3)
+                        .map((product) => (
+                          <Course
+                            key={product.id}
+                            name={product.name}
+                            id={product.id}
+                            url={product.url}
+                          />
+                        ))
+                    ) : (
+                      <p>Any products to show</p>
+                    )}
+                  </Products>
+                  <div className="flex justify-center items-center">
+                    <Link to="/products" text="View all products" />
+                  </div>
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/products"
+            element={
+              <>
+                <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+                  <Products>
+                    {products.length > 0 ? (
+                      products.map((product) => (
+                        <Course
+                          key={product.id}
+                          name={product.name}
+                          id={product.id}
+                          url={product.url}
+                        />
+                      ))
+                    ) : (
+                      <p>Any products to show</p>
+                    )}
+                  </Products>
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/product/:id"
+            element={
+              <>
+                <Hero />
+                <ProductItem />
+              </>
+            }
+          />
+          <Route
+            path="/cart"
+            element={
+              <>
+                <Hero />
+                <Cart />
+              </>
+            }
+          />
+        </Route>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

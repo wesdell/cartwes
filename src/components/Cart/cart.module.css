@@ -1,0 +1,10 @@
+.cart_container {
+  max-width: 1000px;
+  @apply px-8 mx-auto;
+}
+.cart_total {
+  @apply flex justify-end;
+}
+.cart_total_content {
+  @apply flex gap-4 mb-3 p-1 font-bold bg-emerald-50 rounded-md;
+}

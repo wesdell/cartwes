@@ -1,0 +1,9 @@
+.icon {
+  @apply h-8 w-8 hover:fill-emerald-600 transition-all duration-500;
+}
+.link {
+  @apply h-12 px-3 flex items-center justify-center;
+}
+.link_text {
+  @apply ml-1 font-bold hover:text-emerald-600 transition-all duration-500;
+}

@@ -1,0 +1,8 @@
+.hero_img_container {
+  background-image: url(../../assets/img/hero2.png);
+  @apply grayscale bg-cover bg-center bg-no-repeat;
+}
+.hero_img {
+  height: 35vh;
+  @apply w-full bg-black bg-opacity-70;
+}

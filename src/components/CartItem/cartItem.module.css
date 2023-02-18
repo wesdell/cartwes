@@ -1,0 +1,6 @@
+.cart_items_container {
+  @apply mb-3 p-2 grid grid-cols-2 gap-x-4 items-center text-center rounded-md sm:grid-cols-6 bg-emerald-100;
+}
+.cart_item_img {
+  @apply w-8 h-8 mx-auto sm:mx-0;
+}

@@ -1,0 +1,12 @@
+.course {
+  @apply w-full mb-6 mx-auto flex flex-col shadow-md overflow-hidden rounded-md bg-teal-200 bg-opacity-60;
+}
+.course_img {
+  @apply mx-auto w-32 h-auto;
+}
+.course_content {
+  @apply h-12 font-bold flex flex-row items-center justify-between bg-slate-400 bg-opacity-70;
+}
+.course_btn {
+  @apply bg-amber-50 hover:bg-amber-100 hover:text-emerald-600 transition-all duration-500;
+}

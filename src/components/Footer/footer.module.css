@@ -1,0 +1,3 @@
+.footer {
+  @apply px-2 h-10 text-sm w-full flex items-center justify-center shadow-inner font-bold text-slate-800  bg-green-200;
+}

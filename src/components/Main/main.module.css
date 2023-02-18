@@ -1,0 +1,7 @@
+.principal {
+  min-height: calc(100vh - 5.25rem);
+  @apply mt-12 flex flex-col bg-amber-50;
+}
+.main_content {
+  @apply w-full overflow-scroll;
+}
