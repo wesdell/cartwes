@@ -1,6 +1,6 @@
 # About the project:
 
-["Project image"](https://wesdell.github.io/cartwes/static/media/cartwes.e87ea1c7165dedbbaf63.png)
+!["Project image"](https://wesdell.github.io/cartwes/static/media/cartwes.e87ea1c7165dedbbaf63.png)
 
 Cartwes is a Shopping cart website with **Frontend features only**.
 
