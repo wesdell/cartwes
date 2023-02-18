@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/cartwes/static/css/main.2f18924c.css",
-    "main.js": "/cartwes/static/js/main.ae890b96.js",
+    "main.css": "/cartwes/static/css/main.a66a5ed5.css",
+    "main.js": "/cartwes/static/js/main.32087d03.js",
     "static/js/787.9ea196f4.chunk.js": "/cartwes/static/js/787.9ea196f4.chunk.js",
     "static/media/hero2.png": "/cartwes/static/media/hero2.50abd88146e0ade1befb.png",
+    "static/media/cartwes.png": "/cartwes/static/media/cartwes.e87ea1c7165dedbbaf63.png",
     "static/media/react.png": "/cartwes/static/media/react.3f281ff9d09b0a87bad3.png",
     "static/media/postgresql.png": "/cartwes/static/media/postgresql.d12205b1238958d7ef8c.png",
     "static/media/kubernetes.png": "/cartwes/static/media/kubernetes.122eab8749d529509155.png",
@@ -16,12 +17,12 @@
     "static/media/cartwes.svg": "/cartwes/static/media/cartwes.90fbc28b86abe33d94b5f0363bc9074b.svg",
     "index.html": "/cartwes/index.html",
     "static/media/logo.svg": "/cartwes/static/media/logo.b2e5a01e505f739f1484.svg",
-    "main.2f18924c.css.map": "/cartwes/static/css/main.2f18924c.css.map",
-    "main.ae890b96.js.map": "/cartwes/static/js/main.ae890b96.js.map",
+    "main.a66a5ed5.css.map": "/cartwes/static/css/main.a66a5ed5.css.map",
+    "main.32087d03.js.map": "/cartwes/static/js/main.32087d03.js.map",
     "787.9ea196f4.chunk.js.map": "/cartwes/static/js/787.9ea196f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f18924c.css",
-    "static/js/main.ae890b96.js"
+    "static/css/main.a66a5ed5.css",
+    "static/js/main.32087d03.js"
   ]
 }
